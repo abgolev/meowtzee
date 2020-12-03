@@ -79,6 +79,7 @@ var counter = [0, 0, 0, 0, 0, 0];					// number of each die face on board
 //1s 2s 3s 4s 5s 6s sum bonus 3kind 4kind fullhouse lilstr8 bigstr8 chance meowtzee total
 var cScore  = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];	//computer score
 var pScore  = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];	//player score
+var categoryNames = ["Ones", "Twos", "Threes", "Fours", "Fives", "Sixes", "Sum", "Bonus", "3 of a Kind", "4 of a Kind", "Full House", "Little Straight", "Big Straight", "Chance", "Meowtzee", "Total"]
 var cIsAvailable = [true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, false];
 var pIsAvailable = [true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, false];
 var computerTurn = false;
@@ -109,9 +110,9 @@ var papaGolevStyle = false;
 //Loads back to the start of a new game, once the previous game has been completed
 function load() {
 
-	var testOrPlay = prompt("Enter player name or enter the name Testing Mode for testing mode:", "Player 1")
+	var testOrPlay = prompt("Enter player name or enter the name Test for testing mode:", "Player 1")
 
-	if(testOrPlay=="Testing Mode"){
+	if(testOrPlay=="Test"){
 		var numGames = prompt("After Testing Mode, you can inspect the console to see the average score in each category. Each game takes about 0.017 seconds to process. Enter the number of games you'd like to simulate:", "100")
 		StartGameTester(numGames);	
 	}
@@ -1842,13 +1843,17 @@ function endTest(){
 		document.getElementById("cHigh").innerHTML = cHighScore;
 		document.getElementById("pHigh").innerHTML = 0;
 
-		console.log("Average Scores for Each Category:");
-		console.log(avgComputerScore);
 		console.log("Total Games: " + totalGames);
-		console.log("Average: " + avg);
-		console.log("Standard Deviation: " +std);
+		console.log("Average: " + avg.toFixed(2));
+		console.log("Standard Deviation: " +std.toFixed(2));
 		console.log("Hit Sum Counter: " + hitSumCounter);
 		console.log("Meowtzee Counter: " + meowtzeeCounter);
+		console.log(" ");
+		console.log("Average Scores for Each Category:");
+		var i;
+		for(i=0; i<15; i++){
+			console.log(categoryNames[i]+": "+avgComputerScore[i]);
+		}
 
 }
 
@@ -2031,8 +2036,8 @@ function updateWins() {
 
 	document.getElementById("cWins").innerHTML = cWins;
 	document.getElementById("pWins").innerHTML = pWins;
-	document.getElementById("cAvg").innerHTML = cAvg;
-	document.getElementById("pAvg").innerHTML = pAvg;
+	document.getElementById("cAvg").innerHTML = cAvg.toFixed(2);
+	document.getElementById("pAvg").innerHTML = pAvg.toFixed(2);
 	document.getElementById("cHigh").innerHTML = cHighScore;
 	document.getElementById("pHigh").innerHTML = pHighScore;
 }
