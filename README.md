@@ -17,28 +17,27 @@ Each category on the scoreboard is scored in a different way:
 # Scoreboard Rules:
 
 ## Upper Section
-Ones through Sixes boxes are scored based on the number of dice you have that match the number on the category. For example, if you roll a 2-2-3-3-3, you would score a 0 in the Ones category, a 4 in the Twos category, a 9 in the Threes category, or a 0 in any of the Fours, Fives, or Sixes categories.
+**Ones through Sixes** boxes are scored based on the number of dice you have that match the number on the category. For example, if you roll a 2-2-3-3-3, you would score a 0 in the Ones category, a 4 in the Twos category, a 9 in the Threes category, or a 0 in any of the Fours, Fives, or Sixes categories.
 
-Sum is calculated from the six upper categories at the end of the game. If the Sum is greater than 63, you get an additional 35 points in the Bonus category.
+**Sum** is calculated from the six upper categories at the end of the game. If the Sum is greater than 63, you get an additional 35 points in the Bonus category.
 
-Bonus is filled with 35 if the sum is more than 63; otherwise 0.
+**Bonus** is filled with 35 if the sum is more than 63; otherwise 0.
 
 ## Lower Section
 
-Three of a Kind: three dice of the same kind. Score is the sum of all the dice.
+**Three of a Kind:** three dice of the same kind. Score is the sum of all the dice.
 
-Four of a Kind: four dice of the same kind. Score is the sum of all the dice.
+**Four of a Kind:** four dice of the same kind. Score is the sum of all the dice.
 
-Full House: three dice of one kind and two dice of another kind. Scores 25 points.
+**Full House:** three dice of one kind and two dice of another kind. Scores 25 points.
 
-Little Straight: dice that read 1-2-3-4, 2-3-4-5, or 3-4-5-6, in any order. Scores 30 points.
+**Little Straight:** dice that read 1-2-3-4, 2-3-4-5, or 3-4-5-6, in any order. Scores 30 points.
 
-Big Straight: dice that read 1-2-3-4-5 or 2-3-4-5-6, in any order. Scores 40 points.
+**Big Straight:** dice that read 1-2-3-4-5 or 2-3-4-5-6, in any order. Scores 40 points.
 
-Chance: can be picked at any time. Score is the sum of all the dice.
+**Chance:** can be picked at any time. Score is the sum of all the dice.
 
-Yahtzee: five dice of the same kind. Scores 50 points.
-
+**Yahtzee:** five dice of the same kind. Scores 50 points.
 
 ## Multiple Yahtzees
 
