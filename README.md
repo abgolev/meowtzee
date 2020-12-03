@@ -1,4 +1,4 @@
-#How to Play Meowtzee:
+# How to Play Meowtzee:
 
 Click Roll to start new game.
 
@@ -13,16 +13,16 @@ Each turn begins with a roll of the five dice. Then, you have two more rolls dur
 
 Each category on the scoreboard is scored in a different way:
 
-#Scoreboard Rules:
-##Upper Section
+# Scoreboard Rules:
+## Upper Section
 Ones through Sixes boxes are scored based on the number of dice you have that match the number on the category. For example, if you roll a 2-2-3-3-3, you would score a 0 in the Ones category, a 4 in the Twos category, a 9 in the Threes category, or a 0 in any of the Fours, Fives, or Sixes categories.
 
 Sum is calculated from the six upper categories at the end of the game. If the Sum is greater than 63, you get an additional 35 points in the Bonus category.
 
 Bonus is filled with 35 if the sum is more than 63; otherwise 0.
 
-##Lower Section
-###Three of a Kind: three dice of the same kind. Score is the sum of all the dice.
+## Lower Section
+### Three of a Kind: three dice of the same kind. Score is the sum of all the dice.
 
 Four of a Kind: four dice of the same kind. Score is the sum of all the dice.
 
