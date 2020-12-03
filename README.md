@@ -4,9 +4,11 @@ Click Roll to start new game.
 
 Select any dice you wish to hold and click Roll again to reroll. You get a maximum of three rolls.
 
-Click on any of the player scoreboard boxes after any roll to enter your score. The boxes show the score you'll get.
+Click on any of the player scoreboard boxes after any roll to enter a score. The boxes show the potential score in green.
 
-After you're done with your turn, it's the computer's turn. After this, you will alternate turns until all scoreboard boxes are filled.
+After this, it's the computer's turn, after this, the player and computer alternate turns until all scoreboard boxes are filled.
+
+To access **Testing Mode**, enter Test as the player name. Testing Mode takes the number of games to simulate as input. Each 100 games take about 1.7 seconds. Inspecting the console after running testing mode will show a variety of information based on the simulations, including the computer's average score in each category.
 
 # General Yahtzee Rules:
 
